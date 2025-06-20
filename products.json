@@ -1,0 +1,409 @@
+[
+   {
+    "id": 1,
+    "name": "Clear Skin: Acne Spot Treatment",
+    "description": "Nourishes and repairs skin witth acne spots.",
+    "price": 120.00,
+    "salePrice": null,
+    "stock": 100,
+    "category": "skincare",
+    "image": "images/Acne_Spot_Treatment.jpg"
+  },
+  
+  {
+    "id": 2,
+    "name": "MyGoLean: Calorie Curb",
+    "description": "A MyGoLean product.",
+    "price": 250.00,
+    "salePrice": null,
+    "stock": 50,
+    "category": "wellness",
+    "image": "images/Calorie_Curb.jpg"
+  },
+  
+  {
+    "id": 3,
+    "name": "Tassel: Eye Serum",
+    "description": "Brightens and hydrates your under eyes.",
+    "price": 200.00,
+    "salePrice": null,
+    "stock": 100,
+    "category": "skincare",
+    "image": "images/TasselHeroSection.png"
+  },
+  
+  {
+    "id": 4,
+    "name": "Tassel: Beard & Hair Oil",
+    "description": "Enriches and encourages beard and hair glow and growth.",
+    "price": 249.99,
+    "salePrice": null,
+    "stock": 60,
+    "category": "hair",
+    "image": "images/Beard_Oil.jpg"
+  },
+  
+  {
+    "id": 5,
+    "name": "Tassel: SPF 50",
+    "description": "Helps protect skin in sunlight.",
+    "price": 150.00,
+    "salePrice": null,
+    "stock": 35,
+    "category": "skincare",
+    "image": "images/SPF50.jpg"
+  },
+  
+  {
+    "id": 6,
+    "name": "Tassel: Skin Brightening Serum",
+    "description": "Brightens and hydrates your skin.",
+    "price": 300.00,
+    "salePrice": null,
+    "stock": 40,
+    "category": "skincare",
+    "image": "images/Skin_Brightening.jpg"
+  },
+  
+  {
+    "id": 7,
+    "name": "Resa K: Collagen",
+    "description": "High quality brand collagen",
+    "price": 1350.00,
+    "salePrice": 850.00,
+    "stock": 40,
+    "category": "skincare",
+    "image": "images/Resa_K_Elixher.jpg"
+  },
+  
+  {
+    "id": 8,
+    "name": "Tassel: Blue Toner",
+    "description": "Fights dull skin and boosts radiance.",
+    "price": 199.99,
+    "salePrice": null,
+    "stock": 100,
+    "category": "skincare",
+    "image": "images/Blue_Toner.jpg"
+  },
+  
+  {
+    "id": 9,
+    "name": "12 Hour Concentrated skin Balm",
+    "description": "Brightens and hydrates your under eyes.",
+    "price": 200.00,
+    "salePrice": null,
+    "stock": 100,
+    "category": "skincare",
+    "image": "images/12Hour_Concentrated_Skin_Balm.jpg"
+  },
+  
+  {
+    "id": 10,
+    "name": "Clear Skin: Acne Hydro Moisturiser",
+    "description": "Enriches and encourages hair glow and growth.",
+    "price": 249.99,
+    "salePrice": null,
+    "stock": 60,
+    "category": "skincare",
+    "image": "images/Acne_Hydro_Moisturiser.jpg"
+  },
+  
+  {
+    "id": 11,
+    "name": "Clear Skin: Acne Tonic",
+    "description": "Brightens and hydrates your skin.",
+    "price": 300.00,
+    "salePrice": null,
+    "stock": 40,
+    "category": "skincare",
+    "image": "images/Acne_Tonic.jpg"
+  },
+  
+  {
+    "id": 12,
+    "name": "BioDermal: Advanced Moisture Absolute Day",
+    "description": "High quality brand collagen",
+    "price": 1350.00,
+    "salePrice": 850.00,
+    "stock": 40,
+    "category": "skincare",
+    "image": "images/Advanced_Moisture_Absolute_Day.jpg"
+  },
+  
+  {
+    "id": 13,
+    "name": "Aloe Vera Foot Mask",
+    "description": "Fights dull skin and boosts radiance.",
+    "price": 199.99,
+    "salePrice": null,
+    "stock": 100,
+    "category": "wellness",
+    "image": "images/Aloe_Vera_Foot_Mask.jpg"
+  },
+  
+  {
+    "id": 14,
+    "name": "Tassel: Anti-Pigmentation",
+    "description": "Brightens and hydrates your under eyes.",
+    "price": 200.00,
+    "salePrice": null,
+    "stock": 100,
+    "category": "skincare",
+    "image": "images/Anti_Pigment.jpg"
+  },
+  
+  {
+    "id": 15,
+    "name": "BioDermal: Bright Complexion Daily Moisture",
+    "description": "Helps protect skin in sunlight.",
+    "price": 150.00,
+    "salePrice": null,
+    "stock": 35,
+    "category": "skincare",
+    "image": "images/Bright_Complexion_Daily_Moisture.jpg"
+  },
+  
+  {
+    "id": 16,
+    "name": "Tassel: Cashmere Wood",
+    "description": "Brightens and hydrates your skin.",
+    "price": 300.00,
+    "salePrice": null,
+    "stock": 40,
+    "category": "skincare",
+    "image": "images/Cashmere_Wood.jpg"
+  },
+  
+  {
+    "id": 17,
+    "name": "Sadoer: Cleanser Stylish - For Men",
+    "description": "High quality brand collagen",
+    "price": 850.00,
+    "salePrice": null,
+    "stock": 40,
+    "category": "skincare",
+    "image": "images/Cleanser_Stylish.jpg"
+  },
+  
+  {
+    "id": 18,
+    "name": "Tassel Bath Salts: Coconut Cocktail",
+    "description": "Brightens and hydrates your under eyes.",
+    "price": 200.00,
+    "salePrice": null,
+    "stock": 100,
+    "category": "wellness",
+    "image": "images/Coconut_Cocktail_Bath_Salts.jpg"
+  },
+  
+  {
+    "id": 19,
+    "name": "Coffee Scrub",
+    "description": "Enriches and encourages hair glow and growth.",
+    "price": 249.99,
+    "salePrice": null,
+    "stock": 60,
+    "category": "skincare",
+    "image": "images/Coffee_Scrub.jpg"
+  },
+  
+  {
+    "id": 20,
+    "name": "BioDermal: Cooling Enzymatic Peel",
+    "description": "Helps protect skin in sunlight.",
+    "price": 150.00,
+    "salePrice": null,
+    "stock": 35,
+    "category": "skincare",
+    "image": "images/Cooling_Enzymatic_Peel.jpg"
+  },
+  
+  {
+    "id": 21,
+    "name": "Popsicle: Cuticle Essence",
+    "description": "Brightens and hydrates your skin.",
+    "price": 300.00,
+    "salePrice": null,
+    "stock": 40,
+    "category": "wellness",
+    "image": "images/Cuticle_Essence.jpg"
+  },
+  
+  {
+    "id": 22,
+    "name": "BioDermal: 2-In-1 Duo Purifier",
+    "description": "High quality brand collagen",
+    "price": 850.00,
+    "salePrice": null,
+    "stock": 40,
+    "category": "skincare",
+    "image": "images/Duo_Purifier.jpg"
+  },
+  
+  {
+    "id": 23,
+    "name": "Tassel: Fresh Citrus",
+    "description": "Fights dull skin and boosts radiance.",
+    "price": 199.99,
+    "salePrice": null,
+    "stock": 100,
+    "category": "skincare",
+    "image": "images/Fresh_Citrus.jpg"
+  },
+  
+  {
+    "id": 24,
+    "name": "Kiwi Scrub",
+    "description": "Brightens and hydrates your under eyes.",
+    "price": 200.00,
+    "salePrice": null,
+    "stock": 100,
+    "category": "skincare",
+    "image": "images/Kiwi_Scrub.jpg"
+  },
+  
+  {
+    "id": 25,
+    "name": "Tassel: Lavender Fields",
+    "description": "Enriches and encourages hair glow and growth.",
+    "price": 249.99,
+    "salePrice": null,
+    "stock": 60,
+    "category": "skincare",
+    "image": "images/Lavender_Fields.jpg"
+  },
+  
+  {
+    "id": 26,
+    "name": "BioDermal: Lucent",
+    "description": "Helps protect skin in sunlight.",
+    "price": 150.00,
+    "salePrice": null,
+    "stock": 35,
+    "category": "skincare",
+    "image": "images/Lucent.jpg"
+  },
+  
+  {
+    "id": 27,
+    "name": "Tassel Bath Salts: Pink Sweets",
+    "description": "Brightens and hydrates your skin.",
+    "price": 300.00,
+    "salePrice": null,
+    "stock": 40,
+    "category": "wellness",
+    "image": "images/Pink_Sweets_Bath_Salts.jpg"
+  },
+  
+  {
+    "id": 28,
+    "name": "Plant Mask Series",
+    "description": "High quality brand collagen",
+    "price": 850.00,
+    "salePrice": null,
+    "stock": 40,
+    "category": "skincare",
+    "image": "images/Plant_Mask_Series.jpg"
+  },
+  
+  {
+    "id": 29,
+    "name": "Resa K: Recover Enzyme",
+    "description": "Fights dull skin and boosts radiance.",
+    "price": 199.99,
+    "salePrice": null,
+    "stock": 100,
+    "category": "skincare",
+    "image": "images/Recover_Enzyme.jpg"
+  },
+  
+  {
+    "id": 30,
+    "name": "Tassel: Retinol A & E",
+    "description": "Enriches and encourages hair glow and growth.",
+    "price": 249.99,
+    "salePrice": null,
+    "stock": 60,
+    "category": "skincare",
+    "image": "images/Retinol_AE.jpg"
+  },
+  
+  {
+    "id": 31,
+    "name": "Clear Skin: Salicylic Acid Cleanser",
+    "description": "Helps protect skin in sunlight.",
+    "price": 150.00,
+    "salePrice": null,
+    "stock": 35,
+    "category": "skincare",
+    "image": "images/Salicylic_Acid_Cleanser.jpg"
+  },
+  
+  {
+    "id": 32,
+    "name": "Tassel: Silken Sheets",
+    "description": "Brightens and hydrates your skin.",
+    "price": 300.00,
+    "salePrice": null,
+    "stock": 40,
+    "category": "skincare",
+    "image": "images/Silken_Sheets.jpg"
+  },
+  
+  {
+    "id": 33,
+    "name": "BioDermal: Smudge And Polish",
+    "description": "High quality brand collagen",
+    "price": 850.00,
+    "salePrice": null,
+    "stock": 40,
+    "category": "skincare",
+    "image": "images/Smudge_&_Polish.jpg"
+  },
+  
+  {
+    "id": 34,
+    "name": "MyGoLean: Thermo Boost",
+    "description": "Nourishes and repairs damaged hair.",
+    "price": 420.00,
+    "salePrice": null,
+    "stock": 100,
+    "category": "wellness",
+    "image": "images/Thermo_Boost.jpg"
+  },
+  
+  {
+    "id": 35,
+    "name": "Vitamin C Cream",
+    "description": "Rich moisturizing cream for dry skin.",
+    "price": 300.00,
+    "salePrice": null,
+    "stock": 50,
+    "category": "skincare",
+    "image": "images/Vitamin_C_Cream.jpg"
+  }
+  ,
+  
+  {
+    "id": 36,
+    "name": "Tassel: Vitamin E Day Cream",
+    "description": "Nourishes and repairs damaged hair.",
+    "price": 380.00,
+    "salePrice": null,
+    "stock": 100,
+    "category": "skincare",
+    "image": "images/Vitamin_E_Day_Cream.jpg"
+  },
+  
+  {
+    "id": 37,
+    "name": "Vitamin C Hand Mask",
+    "description": "Hand mask for soft and beautiful hands.",
+    "price": 200.00,
+    "salePrice": null,
+    "stock": 50,
+    "category": "skincare",
+    "image": "images/Vitamin_C_Hand_Mask.jpg"
+  }
+]
