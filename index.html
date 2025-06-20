@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tassel Beauty And Wellness Studio - Online Store</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://js.yoco.com/sdk/v1/yoco-sdk-web.js"></script>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="branding">
+        <div class="sliding-text-container">
+          <p class="sliding-text">55 True North Road, Mulbarton, Gauteng.</p>
+        </div>
+        <a href="https://tasselgroup.co.za/shop">
+          <img src="images/logo.jpg" alt="Tassel Logo" class="logo" />
+        </a>
+        <div>
+          <h1>Tassel Beauty And Wellness Studio - Online Store</h1>
+          <p>Your favorite beauty products at your fingertips!</p>
+        </div>
+      </div>
+      <div id="cart-icon" onclick="toggleCart()" title="Open cart">
+        <span id="cart-icon-symbol">🛒</span>
+        <span id="cart-count">0</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-carousel">
+      <div class="carousel-slide"><img src="images/ResaK.jpg" alt="Resa K" /></div>
+      <div class="carousel-slide"><img src="images/Sparty.jpg" alt="Sparty" /></div>
+      <div class="carousel-slide"><img src="images/Snacks.jpg" alt="Snacks" /></div>
+      <div class="carousel-slide"><img src="images/TasselHeroSection.png" alt="Eye Serum" /></div>
+    </div>
+    <div class="hero-content">
+      <h2>Glow Starts Here</h2>
+      <p>Discover our signature Eye Serum and elevate your beauty routine.</p>
+      <a href="#product-list" class="shop-now-btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section class="hero-accordion">
+    <div class="panel" style="background-image: url('images/ResaK.jpg');"></div>
+    <div class="panel" style="background-image: url('images/Sparty.jpg');"></div>
+    <div class="panel" style="background-image: url('images/Snacks.jpg');"></div>
+  </section>
+  
+  <section id="filter-section">
+  <input type="text" id="searchInput" placeholder="Search products...">
+
+  <select id="categoryFilter">
+    <option value="all">All Categories</option>
+    <option value="skincare">Skincare</option>
+    <option value="hair">Hair</option>
+    <option value="wellness">Wellness</option>
+    <!-- Add more as needed -->
+  </select>
+
+  <input type="number" id="minPrice" placeholder="Min Price" min="0">
+  <input type="number" id="maxPrice" placeholder="Max Price" min="0">
+
+  <select id="sortBy">
+    <option value="default">Sort By</option>
+    <option value="priceLowHigh">Price: Low to High</option>
+    <option value="priceHighLow">Price: High to Low</option>
+    <option value="nameAZ">Name: A-Z</option>
+    <option value="nameZA">Name: Z-A</option>
+  </select>
+</section>
+
+
+  <section class="products" id="product-list">
+    <!-- Products will load here -->
+  </section>
+
+  <div id="cart-overlay" onclick="toggleCart()"></div>
+
+  <div id="product-overlay" style="display: none;">
+    <div class="overlay-content">
+      <span id="close-overlay">&times;</span>
+      <div id="overlay-product-image-wrapper" class="image-wrapper">
+        <img id="overlay-product-img" alt="Product Image" />
+        <div id="overlay-sale-badge" class="sale-badge">SALE</div>
+      </div>
+      <h3 id="overlay-product-name"></h3>
+      <p id="overlay-product-description"></p>
+      <div id="overlay-product-pricing">
+        <span id="overlay-product-price" class="price"></span>
+        <span id="overlay-product-original-price" class="original-price"></span>
+      </div>
+      <button id="overlay-add-to-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <section class="cart" id="cart-section">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <button id="clear-cart-btn">Remove All Items</button>
+    <button id="order-now-btn">Order Now</button>
+    <p><strong>Total: R</strong><span id="cart-total">0.00</span></p>
+    <button id="checkout-btn">Checkout</button>
+  </section>
+
+  <!-- Order Modal -->
+<div id="order-modal" class="modal" style="display:none;">
+  <div class="modal-content">
+    <span id="close-order-modal" class="close">&times;</span>
+    <h2>Complete Your Order</h2>
+    <form id="order-form">
+      <label for="order-name">Name:</label>
+      <input type="text" id="order-name" name="order-name" required>
+      <label for="order-email">Email:</label>
+      <input type="email" id="order-email" name="order-email" required>
+      <button type="submit">Send Order</button>
+    </form>
+  </div>
+</div>
+
+  <footer>
+    <p>&copy; 2025 Tassel Beauty And Wellness Studio. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="https://facebook.com/tasselbeautyandwellnessstudio" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com/tasselbeautyandwellnessstudio" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/27729605153" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://tiktok.com/@tasselgroup" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="mailto:info@tasselgroup.co.za" title="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+  </footer>
+  
+    <div id="toast" class="toast">
+    <i class="fas fa-check-circle toast-icon"></i>
+    <span id="toast-message">Item added to cart!</span>
+    </div>
+  
+  <script src="script.js"></script>
+
+</body>
+</html>
