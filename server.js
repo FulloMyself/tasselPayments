@@ -4,7 +4,9 @@ const cors = require('cors');
 const fetch = require('node-fetch');
 
 const app = express();
-app.use(cors()); // Allow all origins, or restrict to your frontend domain for production
+app.use(cors({
+  origin: 'https://tasselgroup.co.za/shop'
+}));
 app.use(express.json());
 
 app.post('/api/yoco-charge', async (req, res) => {
