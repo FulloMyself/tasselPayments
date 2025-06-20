@@ -382,8 +382,20 @@ document.getElementById('checkout-btn').addEventListener('click', function () {
         alert('Payment failed: ' + result.error.message);
       } else {
         // Send result.token to your server for processing
-        alert('Payment successful! Token: ' + result.token);
-        // Optionally clear the cart or show a success message
+        fetch('https://tasselorders.onrender.com/api/yoco-charge', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            token: result.token,
+            amountInCents: Math.round(total * 100)
+          })
+        })
+        .then(res => res.json())
+        .then(data => {
+          // handle payment result
+          alert('Payment successful! Token: ' + result.token);
+          // Optionally clear the cart or show a success message
+        });
       }
     }
   });

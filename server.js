@@ -1,10 +1,10 @@
 require('dotenv').config();
 const express = require('express');
-const fetch = require('node-fetch');
 const cors = require('cors');
+const fetch = require('node-fetch');
 
 const app = express();
-app.use(cors());
+app.use(cors()); // Allow all origins, or restrict to your frontend domain for production
 app.use(express.json());
 
 app.post('/api/yoco-charge', async (req, res) => {
@@ -34,4 +34,4 @@ app.post('/api/yoco-charge', async (req, res) => {
 });
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Backend running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Yoco payment backend running on port ${PORT}`));
